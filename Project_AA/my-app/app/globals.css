@@ -1,0 +1,68 @@
+:root {
+    /* 🎨 Primary (Soft Blue) */
+    --color-primary-100: #e3effe;
+    --color-primary-200: #c4ddfd;
+    --color-primary-300: #a4cafd;
+    --color-primary-400: #85b8fc;
+    --color-primary-500: #65a5fc;
+    --color-primary-600: #3170ac;
+    --color-primary-700: #285a8a;
+    --color-primary-800: #1f4467;
+    --color-primary-900: #152e45;
+    --color-primary-1000: #0b1822;
+  
+    /* 🟢 Green (Military Tech Green) */
+    --color-green-100: #dff4e1;
+    --color-green-200: #c4ebc7;
+    --color-green-300: #a8e1ad;
+    --color-green-400: #8dd893;
+    --color-green-500: #71ce79;
+    --color-green-600: #3f9150;
+    --color-green-700: #337544;
+    --color-green-800: #275938;
+    --color-green-900: #1a3c2c;
+    --color-green-1000: #0e201f;
+  
+    /* ⚫ Navy (Deep Trusty Blue) */
+    --color-navy-100: #e3e5e9;
+    --color-navy-200: #c2c7d1;
+    --color-navy-300: #a0aab9;
+    --color-navy-400: #7e8ea1;
+    --color-navy-500: #5c7189;
+    --color-navy-600: #0d1929;
+    --color-navy-700: #0b1521;
+    --color-navy-800: #080f19;
+    --color-navy-900: #060a11;
+    --color-navy-1000: #030509;
+  
+    /* ⚪ Neutral (Light Gray Backgrounds) */
+    --color-neutral-100: #ffffff;
+    --color-neutral-200: #fefefe;
+    --color-neutral-300: #fcfcfd;
+    --color-neutral-400: #f9f9fb;
+    --color-neutral-500: #f7f7f9;
+    --color-neutral-600: #d2d2d3;
+    --color-neutral-700: #a6a6a7;
+    --color-neutral-800: #7a7a7a;
+    --color-neutral-900: #4d4d4d;
+    --color-neutral-1000: #212121;
+  
+    /* 🟠 Amber (Warning / Emphasis) */
+    --color-amber-100: #fff3db;
+    --color-amber-200: #ffe3ad;
+    --color-amber-300: #ffd37f;
+    --color-amber-400: #ffc351;
+    --color-amber-500: #ffb323;
+    --color-amber-600: #b27c00;
+    --color-amber-700: #8e6300;
+    --color-amber-800: #6b4b00;
+    --color-amber-900: #473200;
+    --color-amber-1000: #241900;
+  }
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}

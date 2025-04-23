@@ -1,0 +1,43 @@
+.button {
+    background-color: var(--color-green-400);
+    border: none;
+    border-radius: 24px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button.disabled {
+    background-color: var(--color-neutral-600);
+    cursor: not-allowed;
+    pointer-events: none; /* Prevents any interaction */
+}
+
+.button:hover{
+    background-color: var(--color-green-600); /* Darker green on hover */
+}
+
+.button-children.has-icon {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    gap: 16px; /* 아이콘과 텍스트 사이의 간격 */
+    width: 100%; /* 부모 버튼과 동일한 크기 */
+    height: 100%;
+}
+
+.button-children span {
+    text-align: center;
+}
+
+.button-children img {
+    flex-shrink: 0;
+}
